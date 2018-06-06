@@ -6,7 +6,6 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-
 public class TodoDemoApplication extends SpringBootServletInitializer {
 
     @Override
@@ -17,5 +16,5 @@ public class TodoDemoApplication extends SpringBootServletInitializer {
     public static void main(String[] args) {
         SpringApplication.run(TodoDemoApplication.class, args);
     }
-    
+
 }
